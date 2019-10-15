@@ -1,0 +1,78 @@
+<meta charset="utf-8">
+<script>
+        //cria um popup(alerta) com uma mensagem como forma de alerta
+    //alert("podemos fazer mais com javaScript");
+
+        //escreve na tela como forma de texto com uma mensagem como parametro
+    // document.write("minha idade é: ");
+    // document.write(21);
+
+        //declarando uma variavel e concatenando com textos e tegs para iprimir em forma de texto na tela  
+    // var ano = 2012;
+    // document.write("<h1> eu nasci em : " + (ano -25) + "<h1> <br>");
+
+        //declarando uma funcao e chamando ela e concatenando com uma variavel
+    function mostrar(frase) {
+        document.write(frase + "<br>");
+    }
+    // var ano = 2012;
+    // mostrar("eu nasci em : " +(ano - 25));
+
+        //mostra uma mensagem na tela e outra q so aprece no console
+    // document.write("ola mundo!");
+    // document.write("este é o meu segundo programa");
+    // console.log("esta mensagem so aparece dentro do console");
+
+    // criando codigo pra caucular imc com ajuda da funcao mostra
+    // var peso = 63;
+    // var altura = 1.83;
+    // var imc = peso / (altura * altura);
+    // document.write("o seu imc é: " + Math.round(imc));
+
+    // declarar duas variaveis idade e nome para mostrar na tela quantos o nome e quanros anos o usuario tem
+    // var nome = prompt("Bom dia ! qual é  o seu nome? ");
+    // document.write("bem vindo " + nome + "<br>");
+    
+    // var idade = prompt(nome + "qual é a sua idade? ");
+    // document.write(nome + " tem " + idade + " anos");
+
+        //delcara 3 variaaveis pra calcular se o time vai ser rebaixado ou nao com base nas suas vitorias e empates
+    // var vitorias = prompt("quantos jogos o CDC futebol cluibe venceu?");
+    // var empates = prompt("quantas aprtidad o CDC empatou?");
+    // var pontos = (parseInt(vitorias) * 3) + parseInt(empates);
+    // if(pontos > 42){
+    //     mostrar("o CDC nao sera rebaixado");
+    // }else {
+    //     mostrar("lamento informar. o CDC sera rebaixado");
+    // }
+
+            // cria uma variavel para a maquina escolher um numero entre 0 e 10 e o usuario usa outra variavel na qual tem q declarar qual numero ele acha q foi o numero q a maquina escolheu
+        // var numeroPensado = Math.round(Math.random() * 10);
+        // var chute = prompt("ja pensei. qual acha que é? ");
+        // if(chute == numeroPensado){
+        //     mostrar("uau! voce acertou,  pois eu pensei no " + numeroPensado);
+        // }else{
+        //     mostrar("voce errou! eu tinha penssado " + numeroPensado);
+        // }
+        
+            //usa uma estrutura de repetiçao while para mostrar quantos anos terão copa
+        // var anoDeCopa = 2030;
+        // while(anoDeCopa <= 2022){
+        //     alert(anoDeCopa + " tem copa!");
+        //     anoDeCopa = anoDeCopa + 4;
+        // }
+
+                //variavel pra criar uma calculadora pra 7
+            // var numero = 7;
+            // for (var multiplicador = 1; multiplicador <=10; multiplicador++) {
+            //     mostrar(multiplicador * numero);  
+            // }
+
+            //desafio de criar um desenho usando * e quebra de linha com um loop
+        for (var linha = 0; linha < 2; linha++) {
+            for (let coluna = 0; coluna < 100; coluna++) {
+                document.write("*");
+            }            
+            document.write("<br>");
+        }
+</script>
